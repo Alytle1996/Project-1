@@ -164,7 +164,7 @@ cd /etc/ansible/
 	- open a new web browser (http://[your.ELK-VM.External.IP]:5601/app/kibana) This will bring up the Kibana Web Portal
 	- check the Module status for file beat and metric beat to see their data receiving.
 
-** You will need to ensure all files are properly placed before running the ansible-playbooks.
+
 
 
 
