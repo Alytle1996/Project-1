@@ -7,20 +7,16 @@ Class Project-1, Elk Stack Deployment
 The files in this repository were used to configure the network depicted below.
  
 
-   These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+   These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the file may be used to install only certain pieces of it, such as Filebeat.
 
        /etc/ansible/install-elk-playbook.yml
 
 This document contains the following details:
-- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
   - Machines Being Monitored
 - How to Use the Ansible Build
-
-
- Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -123,8 +119,6 @@ SSH into the control node and follow the steps below:
 [webservers]
 [10.0.0.5] ansible_python_interpreter=/usr/bin/python3
 [10.0.0.9] ansible_python_interpreter=/usr/bin/python3
-[10.0.0.11] ansible_python_interpreter=/usr/bin/python3
-
 [elk]
 [10.0.0.4] ansible_python_interpreter=/usr/bin/python3
 
@@ -159,7 +153,7 @@ Answer the following questions to fill in the blanks:
  
    The commands needed to run the Ansible configuration for the Elk-Server are:
 
-	- ssh azadmin@JumpBox(Public IP)
+	- ssh azadmin@JumpBox10.0.0.8
 	- sudo docker container list -a (locate your ansible container)
 	- sudo docker start container (name of the container)
 	- sudo docker attach container (name of the container)
