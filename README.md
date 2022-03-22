@@ -93,7 +93,7 @@ Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
 - List the IP addresses of the machines you are monitoring:-
-    	- Web-1(10.1.0.9) Web-2(10.1.0.10)and Web-3(10.1.0.11)
+    	- Web-1(10.1.0.9) Web-2(10.1.0.5)
 
 We have installed the following Beats on these machines:
 - Specify which Beats you successfully installed:-
